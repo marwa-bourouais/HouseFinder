@@ -24,17 +24,17 @@
                     android:layout_height="wrap_content"
                     android:clickable="true"
 
-                    android:id="@+id/imageButton" android:src="@drawable/ic_arrow_back_black_24dp"/>
+                    android:id="@+id/button_previous_details" android:src="@drawable/ic_arrow_back_black_24dp"/>
 
 
             <Button
-                    android:text="Suivant"
+                    android:text="@string/next_button"
                     android:layout_width="wrap_content"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_height="wrap_content"
 
 
-                    android:id="@+id/button" android:layout_marginLeft="250dp"/>
+                    android:id="@+id/button_suivant_details" android:layout_marginLeft="250dp"/>
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -56,7 +56,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/textView3"
                 app:layout_constraintStart_toStartOf="@+id/textView3" android:layout_marginStart="316dp"/>
         <TextView
-                android:text="Sur l'immobilier "
+                android:text="@string/annonce_details"
                 android:layout_width="match_parent"
                 android:layout_height="22dp"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
